@@ -10,7 +10,7 @@ background-image: radial-gradient(white, gray, black);
     
     
 }
-.button input{
+button{
     height: 50px;
     width: 200px;
     border-radius: 20px;
@@ -19,7 +19,7 @@ background-image: radial-gradient(white, gray, black);
     
 }
 
-.button input[type=button]{
+button a{
     text-decoration: none;
     color: black;
     font-weight: bold;
