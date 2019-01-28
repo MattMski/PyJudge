@@ -10,19 +10,16 @@ background-image: radial-gradient(white, gray, black);
     
     
 }
-.button input{
+button.button{
     height: 50px;
     width: 200px;
     border-radius: 20px;
     background-image: radial-gradient(white, black);
     margin-left: 580px;
-    
-}
-
-.button input[type=button]{
-    text-decoration: none;
+	text-decoration: none;
     color: black;
     font-weight: bold;
+    
 }
 footer{
     font-family: cursive;

@@ -21,7 +21,9 @@
 			<div class="column">
 				<div class="shift-center">
 					<p style="text-align: center;">{{question}}</p>
-                    <a class="button" href="/question/{{question_number}}/inputs.txt"><input type="button" value="Download Test Case"></a>
+                    <form action="/question/{{question_number}}/inputs.txt" method="get">
+						<button class="button">Download Test Case</button>
+					</form>
 				</div> 
 			</div>
 		    <div class="column column-20">
